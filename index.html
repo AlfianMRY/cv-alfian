@@ -1,0 +1,400 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
+    
+    
+    <!-- animasi animate.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+    <!-- animasi aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <style>
+        label{
+            color: aqua; 
+            text-shadow: 0px 0px 30px rgba(1, 255, 255, 100%);
+        }
+        *{
+            font-family: fredoka one;
+        }
+      #contact a{
+        text-decoration: none;
+        color: white;
+      }
+
+      #contact a:hover{
+        color: aqua;
+        transition: 1s;
+        text-shadow: 1px 1px 30px aqua;
+      }
+      
+      #filecv{
+        display: none;
+      }
+      .img-hero > img{
+          width: 30%;
+          margin-top: 80px;
+      }
+      .title-hero{
+          font-family: lobster, roboto, arial;
+      }
+      button:hover{
+        box-shadow: -1px 0px 20px aqua;
+        background-color: aqua;
+      }
+    </style>
+    
+    <title>CV Alfian MRY!</title>
+  </head>
+  <body class="bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top " style="background-color: rgb(1, 153, 143); ">
+        <div class="container">
+          <a class="navbar-brand" href="#">Alfian MRY</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto" >
+              <a class="nav-link" aria-current="step" href="#profile">Profile <i class="fas fa-user-circle"></i> </a>
+              <a class="nav-link" href="#aboutme">About Me <i class="fas fa-address-card"></i> </a>
+              <a class="nav-link" href="#skill">Skill <i class="fas fa-dumbbell"></i> </a>
+              <a class="nav-link" href="#contact">Contact Me <i class="fas fa-phone-square-alt"></i> </a>
+              <!-- <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
+            </div>
+          </div>
+        </div>
+      </nav>
+
+
+      <section id="profile" class="overflow-hidden" style="background-color: rgb(179, 247, 243); ">
+        <div class="container text-center">
+            <div class="d-flex justify-content-center img-hero ">
+                <img src="img/Alfian.jpg" alt="" class="profil rounded-circle mb-3 animate__animated animate__slow animate__zoomIn" >
+            </div>
+            <h1 class="animate__animated  animate__slideInLeft title-hero">Alfian Muhamad Rizal Yuristya</h1>
+            <h5 class="animate__animated  animate__slideInRight">Mahasiswa / Web Developer</h4>
+        </div>
+      </section>
+
+      <svg class="bg-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#b3f7f3" fill-opacity="1" d="M0,128L26.7,112C53.3,96,107,64,160,53.3C213.3,43,267,53,320,80C373.3,107,427,149,480,186.7C533.3,224,587,256,640,234.7C693.3,213,747,139,800,138.7C853.3,139,907,213,960,213.3C1013.3,213,1067,139,1120,138.7C1173.3,139,1227,213,1280,229.3C1333.3,245,1387,203,1413,181.3L1440,160L1440,0L1413.3,0C1386.7,0,1333,0,1280,0C1226.7,0,1173,0,1120,0C1066.7,0,1013,0,960,0C906.7,0,853,0,800,0C746.7,0,693,0,640,0C586.7,0,533,0,480,0C426.7,0,373,0,320,0C266.7,0,213,0,160,0C106.7,0,53,0,27,0L0,0Z"></path></svg>
+      
+      <section id="aboutme" class="pt-4 pb-5 overflow-hidden bg-white">
+        <div class="container text-center">
+          <h2 class="mt-5 " data-aos="zoom-in">About Me</h2>
+          <div class="row justify-content-around mb-5">
+            <div class="col-md-4 mt-4 " data-aos="fade-up">
+              Saya orang yang lebih senang
+              bekerja dalam team, saya juga orang
+              yang cepat beradaptasi pada
+              lingkungan baru. Menyukai hal baru, mau dan cepat belajar.
+              hobi saya berenang dan traveling
+            </div>
+          </div>
+
+          <div class="row justify-content-evenly">
+            <div class="col-md-5">
+              <div class="row justify-content-center">
+                <div class="col-md-8 mb-3">
+                  <div class="input-group left">
+                    <div class="input-group-text" id="btnGroupAddon" ><i class="fas fa-map-marker-alt"></i></div>
+                    <input disabled type="text" class="form-control" placeholder="Tempat Lahir : Jakarta" aria-label="Input group example" aria-describedby="btnGroupAddon">
+                  </div>
+                </div>
+
+                <div class="col-md-8 mb-3">
+                  <div class="input-group rightinfo">
+                    <div class="input-group-text" id="btnGroupAddon"><i class="far fa-calendar-alt"></i></div>
+                    <input disabled type="text" class="form-control" placeholder="Tanggal Lahir : 16 Maret 2021" aria-label="Input group example" aria-describedby="btnGroupAddon">
+                  </div>
+                </div>
+
+                <div class="col-md-8 mb-3">
+                  <div class="input-group left">
+                    <div class="input-group-text" id="btnGroupAddon"><i class="fas fa-pray"></i></div>
+                    <input disabled type="text" class="form-control" placeholder="Agama : Islam" aria-label="Input group example" aria-describedby="btnGroupAddon">
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+
+            <div class="col-md-5">
+              <div class="row justify-content-center">
+               
+                <div class="col-md-8 mb-3">
+                  <div class="input-group rightinfo">
+                    <div class="input-group-text" id="btnGroupAddon"><i class="fas fa-venus-mars"></i></div>
+                    <input disabled type="text" class="form-control" placeholder="Jenis Kelamin : Laki - Laki" aria-label="Input group example" aria-describedby="btnGroupAddon">
+                  </div>
+                </div>
+
+                <div class="col-md-8 mb-3">
+                  <div class="input-group left">
+                    <div class="input-group-text" id="btnGroupAddon"> <i class="fas fa-ruler-vertical"></i> </div>
+                    <input disabled type="text" class="form-control" placeholder="Tinggi Badan : 175 Cm" aria-label="Input group example" aria-describedby="btnGroupAddon">
+                  </div>
+                </div>
+
+                <div class="col-md-8 mb-3">
+                  <div class="input-group rightinfo">
+                    <div class="input-group-text" id="btnGroupAddon"><i class="fas fa-weight"></i></div>
+                    <input disabled type="text" class="form-control" placeholder="Berat Badan : 65 Kg" aria-label="Input group example" aria-describedby="btnGroupAddon">
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>     
+
+      <svg class="bg-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#b3f7f3" fill-opacity="1" d="M0,160L20,149.3C40,139,80,117,120,117.3C160,117,200,139,240,128C280,117,320,75,360,58.7C400,43,440,53,480,85.3C520,117,560,171,600,202.7C640,235,680,245,720,234.7C760,224,800,192,840,154.7C880,117,920,75,960,58.7C1000,43,1040,53,1080,96C1120,139,1160,213,1200,245.3C1240,277,1280,267,1320,245.3C1360,224,1400,192,1420,176L1440,160L1440,320L1420,320C1400,320,1360,320,1320,320C1280,320,1240,320,1200,320C1160,320,1120,320,1080,320C1040,320,1000,320,960,320C920,320,880,320,840,320C800,320,760,320,720,320C680,320,640,320,600,320C560,320,520,320,480,320C440,320,400,320,360,320C320,320,280,320,240,320C200,320,160,320,120,320C80,320,40,320,20,320L0,320Z"></path></svg>
+
+      <section id="skill" style="background-color: rgb(179, 247, 243); " class="pb-5 overflow-hidden">
+        <div class="container pt-4">
+          <h2 class="text-center py-5" data-aos="zoom-in">Skill</h2>
+
+          <div class="row justify-content-center  mb-3">
+            <div class="col-md-2 sm-text-center idskill"><p>Ms. Office</p></div>
+            <div class="col-md-8 ">
+              <div class="progress">
+                <div class="progress-bar bg-warning" role="progressbar" style="width: 95%; border-radius: 25px;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row justify-content-center pb-3">
+            <div class="col-md-2 idskill"><p>Web Developer</p></div>
+            <div class="col-md-8 ">
+              <div class="progress">
+                <div class="progress-bar bg-warning" role="progressbar" style="width: 85%; border-radius: 25px;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row justify-content-center pb-3">
+            <div class="col-md-2 idskill"><p>Photoshop</p></div>
+            <div class="col-md-8 ">
+              <div class="progress">
+                <div class="progress-bar bg-warning" role="progressbar" style="width: 75%; border-radius: 25px;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row justify-content-center pb-3">
+            <div class="col-md-2 idskill"><p>Linux</p></div>
+            <div class="col-md-8 ">
+              <div class="progress">
+                <div class="progress-bar bg-warning" role="progressbar" style="width: 70%; border-radius: 25px;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <svg class="bg-dark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#b3f7f3" fill-opacity="1" d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,101.3C672,75,768,53,864,69.3C960,85,1056,139,1152,144C1248,149,1344,107,1392,85.3L1440,64L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+      
+      <section id="contact" class="bg-dark text-light pb-5 overflow-hidden mb-4" style="margin-bottom: 30px;">
+        <div class="container mt-5 ">
+          <h2 class="text-center mb-3 contact" style="color: aqua; text-shadow: -1px 0px 20px aqua;" data-aos="zoom-in">Contact Me</h2>
+          <div class="row mt-5 justify-content-around">
+            <div class="col-md-3 text-center mt-4 contacts">
+              <a class="contact" href="https://wa.me/6285882631942" target="_blank" >
+                <div class="row">
+                  <h5>
+                    <span style="font-size: 2em; margin-top: 30px;"><i class="fab fa-whatsapp"></i></span> 
+                  </h5>
+                </div>
+                <div class="row">
+                  <h6>
+                    +62 8588-2631-942
+                  </h6>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-3 text-center mt-4 contacts">
+              <a href="https://github.com/AlfianMRY" target="_blank" >
+                <div class="row ">
+                  <h5>
+                    <span style="font-size: 2em; margin-top: 30px;"><i class="fab fa-github"></i></span> 
+                  </h5>
+                </div>
+                <div class="row">
+                  <h6>
+                    AlfianMRY
+                  </h6>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-3 text-center mt-4 contacts">
+              <a href="mailto:alfianmry16@gmail.com?subject=Mail from Our Site" target="_blank" >
+                <div class="row">
+                  <h5>
+                    <span style="font-size: 2em; margin-top: 30px;"><i class="far fa-envelope"></i></span> 
+                  </h5>
+                </div>
+                <div class="row">
+                  <h6>
+                    alfianmry16@gmail.com
+                  </h6>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-10">
+              <div class="row justify-content-evenly pt-md-4">
+                <div class="col-md-3 text-center mt-4 contacts">
+                  <a href="https://www.instagram.com/alfian_mry/" target="_blank" >
+                    <div class="row">
+                      <h5>
+                        <span style="font-size: 2em; margin-top: 30px;"><i class="fab fa-instagram"></i></span> 
+                      </h5>
+                    </div>
+                    <div class="row">
+                      <h6>
+                        @alfian_mry
+                      </h6>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-3 text-center mt-4 contacts">
+                  <a onclick="setTimeout(infodonlot,1500)" href="file/CV-Alfian.pdf" download="CvAlfianMRY.pdf">
+                    <div class="row">
+                      <h5>
+                        <span style="font-size: 2em; margin-top: 30px;"><i class="fas fa-file-download"></i></span> 
+                      </h5>
+                    </div>
+                    <div class="row">
+                      <h5>
+                        CV PDF Disini 
+                      </h5>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <button onclick="oke()" id="filecv"  class="alert alert-info text-center mt-5" data-aos="zoom-in" data-aos-duration="1500" style="box-shadow: 0px 0px 20px aqua; " role="alert">
+              <h5>
+                <i class="fas fa-check-circle"></i> Terimakasih sudah klik cv saya
+              </h5>
+            </button>
+          </div>
+
+          <h2  data-aos="zoom-in" class="text-center my-3 mt-5 contact" style="color: aqua; text-shadow: -1px 0px 20px aqua;" data-aos="zoom-in">Form Message</h2>
+          <form action="" class="mx-5" id="form" >
+            <div class="mb-3" data-aos="zoom-in">
+                <label for="exampleFormControlInput1" class="form-label">Nama</label>
+                <input type="text" class="form-control" name="nama" placeholder="nama...">
+            </div>
+            <div class="mb-3" data-aos="zoom-in">
+                <label for="exampleFormControlInput1" class="form-label">Email </label>
+                <input type="email" class="form-control" name="email" placeholder="name@example.com">
+            </div>
+            <div class="mb-3" data-aos="zoom-in">
+                <label for="exampleFormControlTextarea1" class="form-label">Pesan</label>
+                <textarea class="form-control" id="pesan" rows="3"></textarea>
+            </div>
+            <button data-aos="zoom-in" onclick="alertPesan()" class="btn" style="color: black;background-color: rgb(54, 206, 206); ">Kirim</button>
+          </form>
+        </div> 
+      </section>
+
+      <footer id="copyright" class="pb-2 bg-dark pt-3">
+        <p class="text-center bg-dark " style="opacity: 70%; color: aqua; text-shadow: 0px 0px 30px rgba(1, 255, 255, 100%);"> Develop By Alfian 2022 </p>
+      </footer>
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+
+    <!-- Font Awesome -->
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"data-auto-a11y="true"></script>
+    <!-- costum js -->
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      const infogroup = document.querySelectorAll('.input-group'); 
+      const rightgroup = document.querySelectorAll('.rightinfo');
+      const leftgroup = document.querySelectorAll('.left'); 
+      const progres = document.querySelectorAll('.progress');
+      const skill = document.querySelectorAll('.idskill');
+      const contacts = document.querySelectorAll('.contacts');
+      
+      rightgroup.forEach((rgrup) => {
+        rgrup.dataset.aos = 'fade-left';
+      });
+      
+      leftgroup.forEach((lgrup) => {
+        lgrup.dataset.aos = 'fade-right';
+      });
+      
+      infogroup.forEach((grup, i)=>{
+        grup.dataset.aosDelay = i*100;
+      });
+
+      progres.forEach((prog, i)=>{
+        prog.dataset.aos = 'fade-left';
+        prog.dataset.aosDelay = i*100;
+      });
+
+      skill.forEach((skill, i)=>{
+        skill.dataset.aos = 'fade-right';
+        skill.dataset.aosDelay = i*100;
+      })
+
+      contacts.forEach((cont, i)=>{
+        cont.dataset.aos = 'zoom-in';
+        cont.dataset.aosDelay = i*100;
+      })
+
+      AOS.init({
+        offset: 50, 
+        duration: 1000,
+        once: false
+      });
+
+      function infodonlot(){ 
+        document.getElementById("filecv").style.display = "block";
+      }
+
+      function oke(){
+        document.getElementById("filecv").style.display = "none";
+        document.getElementById("filecv").style.transitionDuration = "2s" ;
+      }
+
+      function alertPesan(){
+          let frm = document.getElementById('form')
+          let nama = frm.nama.value;
+          let email = frm.email.value;
+          let pesan = document.getElementById('pesan').value
+
+          alert(`
+            Nama : ${nama}\n
+            Email : ${email}\n
+            Pesan : ${pesan}
+          `);
+      }
+    </script>
+  </body>
+</html>
